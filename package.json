@@ -1,0 +1,28 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Bamazon emulates an online store. It allows shoppers to view product lists, buy products, and view quantity in stock of each item. This is being done with Inquirer.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakebot12/bamazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakebot12/bamazon/issues"
+  },
+  "homepage": "https://github.com/jakebot12/bamazon#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^6.3.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {}
+}
